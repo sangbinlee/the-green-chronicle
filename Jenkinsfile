@@ -46,7 +46,7 @@ pipeline {
         //     sh 'npm run unit'
         //   }
         // }
-        stage('devdevdevdevdev') {
+        stage('dev') {
           steps {
             echo 'sales building the application...  now....'
             sh 'npm run dev'
