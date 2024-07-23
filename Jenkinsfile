@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        NODE_ENV = 'development'
+        NODE_ENV = 'developement'
         // NODE_ENV = 'production'
         BUILD_ID = 'dontKillMe' // Jenkins의 ProcessTreeKiller 방지
         // JENKINS_NODE_COOKIE = 'dontKillMe' // Jenkins의 ProcessTreeKiller 방지
