@@ -10,6 +10,7 @@ pipeline {
         stage('Clone Sources') {
           steps {
             echo 'sales building the application...'
+            echo 'by https://jenkins.sodi9.store/github-webhook/'
             // git 'https://gitlab.com/chiminyau/ci-test.git'
           }
         }
