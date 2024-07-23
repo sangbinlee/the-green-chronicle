@@ -49,7 +49,8 @@ pipeline {
         stage('dev') {
           steps {
             echo 'sales building the application...  now....'
-            sh 'npm run dev'
+            // sh 'npm run dev'
+            sh 'pm2 start npm run dev'
           }
         }
         // stage('Build') {
